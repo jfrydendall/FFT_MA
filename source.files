@@ -1,0 +1,18 @@
+HEADERS = \
+	FFT_MA.hpp\
+	../Array.h\
+	../fftw++.h
+
+CPPFILES = \
+	FFT_MA.cpp\
+	main.cpp
+
+CCFILES = \
+	../fftw++/fftw++.cc
+
+FORTRANFILES = \
+	par_zig_mod.f90\
+	par_seed_mod.f90\
+	mod_fftw3.f90\
+	fftMA.f03\
+	mainf.f03
